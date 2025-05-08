@@ -5,7 +5,6 @@ datos = {
     "gastos": [4.0, 3.5, 5.0, 4.2, 3.8] 
 }
 
-
 # Objetivo:
 # 1. Pasar esa lista a un DataFrame con columna Gasto.
 df = pd.DataFrame(datos)
