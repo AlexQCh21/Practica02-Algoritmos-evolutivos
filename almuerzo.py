@@ -20,6 +20,6 @@ gasto_mayor_de_la_media= df_gasto_mayor_al_promedio["dias"].tolist()
 
 print("=======================RESULTADOS=======================")
 print(f"El gato total en la semana es de : ${gastoTotal:.2f} y el gasto medio es: ${gastoMedio:.2f}")
-print("Los días en los que se gastó mas de la media son: ")
+print("Los dias en los que se gasto mas de la media son: ")
 for dia in gasto_mayor_de_la_media: 
     print(f" - {dia}")
